@@ -1,2 +1,1 @@
-# Plot-generator
- a random plot generator coded by jack blazer
+A random plot generator coded by jack blazer
