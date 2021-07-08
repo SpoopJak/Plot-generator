@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+    background: rgb(184,255,231);
+    background: linear-gradient(90deg, rgba(184,255,231,1) 0%, rgba(91,187,212,1) 89%);
+    text-align: center;
+}
+.btn{
+    
+    margin: auto;
+    transition: opacity 0.3s, width 0.3s;
+    opacity: 0.8;
+    width: 10%;
+    height: 75px;
+    border: none;
+    font-size:xx-large;
+    border-radius: 20px;
+}
+button:hover{
+    opacity: 1;
+    width: 15%;
+    
+}
+.container{
+    text-align: center;
+}
