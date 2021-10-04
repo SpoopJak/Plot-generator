@@ -330,7 +330,7 @@ function gensetting(){
         setting = "a food factory"
      }
 	     if(se == 16){
-        setting = "under the ocean
+        setting = "under the ocean"
      }
     document.getElementById("setting").innerHTML =  setting;
 }
