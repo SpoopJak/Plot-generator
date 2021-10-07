@@ -48,7 +48,7 @@ function gentheme(){
    document.getElementById("theme").innerHTML =  theme;
 }
 function genprotagonist(){
-var pt = Math.floor((Math.random() * 11) + 1);
+var pt = Math.floor((Math.random() * 10) + 1);
    if(pt == 1){
       protype = "chef"
    }
@@ -87,12 +87,8 @@ var pt = Math.floor((Math.random() * 11) + 1);
    if(pt == 10){
       protype = "teenager"
    }
-	
-   if(pt == 11){
-      protype = "poet"
-   }
    //personality
-   var per = Math.floor((Math.random() * 12) + 1);
+   var per = Math.floor((Math.random() * 10) + 1);
    if(per == 1){
       pertype = "evil"
    }
@@ -131,20 +127,12 @@ var pt = Math.floor((Math.random() * 11) + 1);
    if(per == 10){
       pertype = "bratty"
    }
-	
-   if(per == 11){
-      pertype = "bipolar"
-   }
-	
-   if(per == 12){
-      pertype = "nervous"
-   }
    
    
     document.getElementById("antagonist").innerHTML = "A " + pertype + " "+ protype ;
 }
 function genantagonist(){
-    var at = Math.floor((Math.random() * 11) + 1);
+    var at = Math.floor((Math.random() * 10) + 1);
        if(at == 1){
           atype = "chef"
        }
@@ -183,9 +171,6 @@ function genantagonist(){
        if(at == 10){
           atype = "teenager"
        }
-	if(pt == 11){
-      protype = "poet"
-   }
        //personality
        var aper = Math.floor((Math.random() * 10) + 1);
        if(aper == 1){
